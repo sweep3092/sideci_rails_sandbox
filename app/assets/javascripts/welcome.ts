@@ -11,3 +11,12 @@ $("a.github_auth").click(function () {
 });
 
 mixpanel.track_links("a.github_auth", "Click GitHub Auth");
+
+class Hoge {
+
+  foo(): {
+    if ("a" == "b") {
+    }
+  }    
+
+}
