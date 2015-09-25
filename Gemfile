@@ -44,5 +44,6 @@ group :development, :test do
 
   # rubocop
   gem 'rubocop'
+  gem 'rubocop-rspec'
 end
 
