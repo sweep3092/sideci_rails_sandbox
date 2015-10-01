@@ -1,0 +1,13 @@
+linter:
+  haml_lint:
+    options:
+      include_linter:
+        - TagName
+        - EmptyScript
+        - LineLength
+        - MultilinePipe
+      exclude_linter:
+        - TagName
+      file: '**/*haml'
+      exclude:
+        - 'app/views/layouts/application.html.haml'
