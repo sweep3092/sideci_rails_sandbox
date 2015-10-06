@@ -11,3 +11,4 @@ linter:
       file: '**/*haml'
       exclude:
         - 'app/views/layouts/application.html.haml'
+      config: 'haml-lint.default.yml'
