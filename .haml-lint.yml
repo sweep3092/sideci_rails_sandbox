@@ -1,0 +1,75 @@
+# Enable AltText only
+# 全ての Linter を enable にしてしまうと、実行時に"No linters specified"と怒られるため、AltTextだけ有効にしている。
+# AltTextで怒られるファイルは存在しないため、このhaml-lint.ymlが有効になっていればfailuresは出ないはず。
+skip_frontmatter: false
+
+linters:
+  AltText:
+    enabled: true
+
+  ClassAttributeWithStaticValue:
+    enabled: false
+
+  ClassesBeforeIds:
+    enabled: false
+
+  ConsecutiveComments:
+    enabled: false
+
+  ConsecutiveSilentScripts:
+    enabled: false
+
+  EmptyScript:
+    enabled: false
+
+  FinalNewline:
+    enabled: false
+    present: false
+
+  HtmlAttributes:
+    enabled: false
+
+  ImplicitDiv:
+    enabled: false
+
+  LeadingCommentSpace:
+    enabled: false
+
+  LineLength:
+    enabled: false
+
+  MultilinePipe:
+    enabled: false
+
+  MultilineScript:
+    enabled: false
+
+  ObjectReferenceAttributes:
+    enabled: false
+
+  RuboCop:
+    enabled: false
+
+  RubyComments:
+    enabled: false
+
+  SpaceBeforeScript:
+    enabled: false
+
+  SpaceInsideHashAttributes:
+    enabled: false
+
+  Indentation:
+    enabled: false
+
+  TagName:
+    enabled: false
+
+  TrailingWhitespace:
+    enabled: false
+
+  UnnecessaryInterpolation:
+    enabled: false
+
+  UnnecessaryStringOutput:
+    enabled: false
