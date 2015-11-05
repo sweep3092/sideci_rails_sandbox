@@ -1,0 +1,20 @@
+{
+  // Enable Enforcing options
+  "unused": true,
+  "undef": true,
+
+  // Relaxes
+  // "asi": true,
+  // "sub": true,
+  // "eqnull": true,
+
+  // Environments
+  "jquery": true,
+  "browser": true,
+
+  // TODO: Specific your global variables
+  "globals": {
+    "ga": true,
+    "mixpanel": true
+  }
+}
