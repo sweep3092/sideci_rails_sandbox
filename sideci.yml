@@ -23,3 +23,7 @@ linter:
     options:
       config: 'lint_yml/.eslintrc'
 
+  tslint:
+    options:
+      config: 'lint_yml/tslint.json'
+
