@@ -3,3 +3,23 @@ linter:
     options:
       test: true
       exclude: 'app/'
+  haml_lint:
+    options:
+      config: 'lint_yml/haml-lint.yml'
+
+  jshint:
+    options:
+      config: 'lint_yml/.jshintrc'
+
+  rubocop:
+    options:
+      config: 'lint_yml/.rubocop.yml'
+
+  coffeelint:
+    options:
+      config: 'lint_yml/coffeelint.json'
+
+  eslint:
+    options:
+      config: 'lint_yml/.eslintrc'
+
