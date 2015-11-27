@@ -405,7 +405,7 @@ Style/TrailingBlankLines:
 Style/TrailingComma:
   Enabled: false
 
-Style/TrailingWhitespace:
+Style/TrailingWhitespac:
   Enabled: false
 
 Style/TrivialAccessors:
