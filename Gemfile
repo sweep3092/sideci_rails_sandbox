@@ -43,7 +43,7 @@ group :development, :test do
   gem 'spring'
 
   # rubocop
-  gem 'rubocop'
   gem 'rubocop-rspec'
+  gem 'rubocop', '0.31.0', require: false
 end
 
