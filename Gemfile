@@ -44,6 +44,6 @@ group :development, :test do
 
   # rubocop
   gem 'rubocop-rspec'
-  gem 'rubocop', '0.31.0', require: false
+  gem 'rubocop', '0.29.0', require: false
 end
 
