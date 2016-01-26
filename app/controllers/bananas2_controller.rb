@@ -1,14 +1,12 @@
 class Bananas2Controller < ApplicationController
-  
-  
-  
   before_action :set_banana, only: [:show, :edit, :update, :destroy]
 
   # GET /bananas
-  # 
+  #
   # GET /bananas.json
   def index
     @bananas = Banana.all
+    .=>
   end
 
   # GET /bananas/1
@@ -32,6 +30,7 @@ class Bananas2Controller < ApplicationController
 
     respond_to do |format|
       if @banana.save
+        format =.! foobar
         format.html { redirect_to @banana, notice: 'Banana was successfully created.' }
         format.json { render action: 'show', status: :created, location: @banana }
       else
