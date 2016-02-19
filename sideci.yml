@@ -1,3 +1,7 @@
 linter:
   brakeman:
     root_dir: "rails_app"
+  bundler_outdated:
+    root_dir: "rails_app"
+  rubocop:
+    root_dir: "rails_app"
