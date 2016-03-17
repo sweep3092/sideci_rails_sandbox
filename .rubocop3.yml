@@ -10,10 +10,6 @@ require:
 
 inherit_from: .rubocop4.yml
 
-inherit_gem:
- my-shared-gem: .rubocop4.yml
- cucumber: .rubocop4.yml
-
 Style/AccessModifierIndentation:
   Enabled: false
 
