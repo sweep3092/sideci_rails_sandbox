@@ -11,6 +11,6 @@ require:
 
 inherit_from:
  - http://www.example.com/rubocop.yml
- - .rubocop4.yml
+ - .rubocop3.yml
 
 

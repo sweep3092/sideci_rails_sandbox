@@ -8,13 +8,11 @@ require:
  - rubocop-rspec
  - some-unpermitted-plugin
 
-inherit_from:
- - http://www.example.com/rubocop.yml
- - ../.rubocop.yml
+inherit_from: .rubocop4.yml
 
 inherit_gem:
- my-shared-gem: .rubocop.yml
- cucumber: conf/rubocop.yml
+ my-shared-gem: .rubocop4.yml
+ cucumber: .rubocop4.yml
 
 Style/AccessModifierIndentation:
   Enabled: false
