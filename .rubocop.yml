@@ -13,11 +13,11 @@ require:
 
 inherit_from:
  - http://www.example.com/rubocop.yml
- - ../.rubocop.yml
+ - .rubocop2.yml
 
 inherit_gem:
- my-shared-gem: .rubocop.yml
- cucumber: conf/rubocop.yml
+ my-shared-gem: .rubocop2.yml
+ cucumber: .rubocop2.yml
 
 Style/AccessModifierIndentation:
   Enabled: false
