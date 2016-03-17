@@ -1,0 +1,8 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+  DisplayCopNames: true
+
+require:
+ - ./lib/balse.rb
+

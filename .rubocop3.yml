@@ -3,9 +3,6 @@ AllCops:
     - 'vendor/**/*'
   DisplayCopNames: true
 
-Rails:
-  Enabled: true
-
 require:
  - ./lib/balse.rb
  - rubocop-rspec
