@@ -10,7 +10,6 @@ require:
  - ./lib/balse.rb
 
 inherit_from:
- - http://www.example.com/rubocop.yml
  - .rubocop3.yml
 
 
