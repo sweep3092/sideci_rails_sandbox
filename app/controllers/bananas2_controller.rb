@@ -72,7 +72,7 @@ class Bananas2Controller < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def banana_params
+    def banana_params(k:)
       params.require(:banana).permit(:name, :price)
     end
 end

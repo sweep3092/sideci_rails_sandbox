@@ -318,38 +318,7 @@ Style/SingleLineBlockParams:
 Style/SingleLineMethods:
   Enabled: false
 
-Style/SingleSpaceBeforeFirstArg:
-  Enabled: false
 
-Style/SpaceAfterColon:
-  Enabled: false
-
-Style/SpaceAfterComma:
-  Enabled: false
-
-Style/SpaceAfterControlKeyword:
-  Enabled: false
-
-Style/SpaceAfterMethodName:
-  Enabled: false
-
-Style/SpaceAfterNot:
-  Enabled: false
-
-Style/SpaceAfterSemicolon:
-  Enabled: false
-
-Style/SpaceBeforeBlockBraces:
-  Enabled: false
-
-Style/SpaceBeforeComma:
-  Enabled: false
-
-Style/SpaceBeforeComment:
-  Enabled: false
-
-Style/SpaceBeforeSemicolon:
-  Enabled: false
 
 Style/SpaceInsideBlockBraces:
   Enabled: false
@@ -363,8 +332,6 @@ Style/SpaceAroundEqualsInParameterDefault:
 Style/SpaceAroundOperators:
   Enabled: false
 
-Style/SpaceBeforeModifierKeyword:
-  Enabled: false
 
 Style/SpaceInsideBrackets:
   Enabled: false
@@ -446,3 +413,6 @@ Lint/DeprecatedClassMethods:
 
 Lint/StringConversionInInterpolation:
   Enabled: false
+
+Lint/DefinitionValidator:
+  Min: 2

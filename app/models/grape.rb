@@ -3,11 +3,12 @@ class Grape < ActiveRecord::Base
     "cut cut!"
   end
 
-  def slice
+  def slice(params)
     p "slice#{params}"
   end
 
   def buy
+    slice
   end
 
   def hoge
